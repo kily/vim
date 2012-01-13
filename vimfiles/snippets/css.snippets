@@ -1,0 +1,115 @@
+#-----------------------------------------------
+# snippets for snipMeta by kily
+# update: 2012-1-2
+#-----------------------------------------------
+
+# comments
+snippet /*
+	/**
+	 * Name${1:大模块说明}
+	 * Author: ${2:kily}
+	 **/
+# comments
+snippet //
+	/** ${1:小模块说明} **/
+
+#-----------------------------------------------
+# snippets box
+#-----------------------------------------------	
+snippet h#
+	height:${1:10}px; line-height:${2:$1}px; ${3}
+snippet h
+	height:${1:10}px; ${2}
+snippet w
+	width:${1:10}px; ${2}
+snippet w#
+	width:${1:10}px; margin:0 auto; ${2}
+snippet lh
+	line-height:${1:10}px; ${2}	
+snippet b#
+	border:1px solid #fc0; ${1}
+snippet border
+	border:${1:1}px solid #${2:fc0}; ${3}	
+snippet bg
+	background:url(${1:../images/}) 0 0 no-repeat; ${2}
+snippet bgc
+	background-color:#${1:fc0}; ${2}
+snippet bgp
+	background-position:${1:10px} ${2:10px}; ${3}	
+snippet bgnr
+	background-repeat:${1:no-repeat}; ${2}
+snippet bgr
+	background-repeat:repeat-${1:x}; ${2}		
+snippet pt
+	padding-top:${1:10}px; ${2}
+snippet pr
+	padding-right:${1:10}px; ${2}
+snippet pb
+	padding-bottom:${1:10}px; ${2}
+snippet pl
+	padding-left:${1:10}px; ${2}
+snippet mt
+	margin-top:${1:10}px; ${2}
+snippet mr
+	margin-right:${1:10}px; ${2}
+snippet mb
+	margin-bottom:${1:10}px; ${2}
+snippet ml
+	margin-left:${1:10}px; ${2}
+	
+snippet bt
+	border-top:${1:10}px ${2:solid} #${3:fc0}; ${4}
+snippet br
+	border-right:${1:10}px ${2:solid} #${3:fc0}; ${4}
+snippet bb
+	border-bottom:${1:10}px ${2:solid} #${3:fc0}; ${4} 
+snippet bl
+	border-left:${1:10}px ${2:solid} #${3:fc0}; ${4} 
+snippet disb
+	display:block; 
+snippet disib
+	display:inline-block; 
+snippet disi
+	display:inline; 
+	
+	
+#-----------------------------------------------
+# snippets position & float
+#-----------------------------------------------	
+snippet posr
+	position:relative; 
+snippet posa
+	position:absolute; 
+snippet posa#
+	position:absolute; right:${1:10}px; top:${2:$1}px; ${3}
+snippet fl
+	float:left; 
+snippet fr
+	float:right; 
+	
+#-----------------------------------------------
+# snippets text
+#-----------------------------------------------
+snippet tal
+	text-align:left; 
+snippet tar
+	text-align:right; 
+snippet tac
+	text-align:center; 
+snippet tdu
+	text-decoration:underline; 
+snippet tdn
+	text-decoration:none; 
+snippet fwb
+	font-weight:bold; 
+snippet fwn
+	font-weight:normal; 
+snippet fsn
+	font-style:normal; 
+snippet fsi
+	font-style:italic; 
+snippet ti
+	text-indent:-9999px;  	
+snippet ti#
+	text-indent:-9999px; overflow:hidden; 
+	
