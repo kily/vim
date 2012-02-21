@@ -58,8 +58,8 @@ set transparency=5
 "高亮搜索结果
 set hlsearch
 
-"设置始终显示标签页
-"set showtabline=2
+"设置始终显示标签页<我想去掉这个注释>
+set showtabline=2
 
 "下面那个状态条条
 "set laststatus=2
